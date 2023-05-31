@@ -100,6 +100,21 @@ ul li p {
     letter-spacing: 0.0625em;
 }
 
+/* attrbutions */
+header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--soft-violet-color);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
+
 
 /* card style */
 .card {
@@ -135,10 +150,6 @@ ul li p {
     border-radius: 0 0 var(--border-radius-size) var(--border-radius-size);
 }
 
-.card__heading {
-    /* flex-basis: 6rem; */
-}
-
 .card__heading span {
     color: var(--soft-violet-color);
 }
@@ -170,7 +181,6 @@ ul li p {
         --list-item-gap: 3.75rem;
     }
 
-    /* card style */
     .card {
         grid-template-columns: calc(var(--card-width) - var(--illustration-width)) var(--illustration-width);
         grid-template-rows: var(--card-height);
@@ -193,5 +203,4 @@ ul li p {
         flex-direction: row;
         gap: var(--list-item-gap); 
     }
-
 }
